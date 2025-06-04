@@ -1,1 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><svg width="343px" height="343px" viewBox="0 0 343 343" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>redefine-favicon-2</title><defs><path d="M173.008798,0 C243.696387,0 301,58.2029825 301,130 C301,201.797017 243.696387,260 173.008798,260 L173.008,177.513 L173.348389,177.510815 C199.069478,177.087242 219.791789,155.777442 219.791789,129.551724 C219.791789,103.210683 198.886831,81.8288874 173.008786,81.5882581 L0,81.5862069 L0,0 Z" id="path-1"></path></defs><g id="logo-MIT-favicon-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Logo" transform="translate(19.000000, 19.000000)"><polygon id="左下角" fill="#A31F34" points="-1.50695428e-14 186 119 304 0 304"></polygon><polygon id="梯形" fill="#C9C8C7" points="-1.39749323e-14 4.08700851e-15 304 304 194.542274 304 -1.39749323e-14 110.334744"></polygon><mask id="mask-2" fill="white"><use xlink:href="#path-1"></use></mask><use id="Combined-Shape" fill="#C9C8C7" xlink:href="#path-1"></use><polygon id="阴影" fill="#8A8B8C" mask="url(#mask-2)" points="0 0 111.230321 4.08700851e-15 304 189.020851 304 304"></polygon></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DevLogBook • Minimal Tech Logo • SVG Illustration -->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1000 1200"
+  width="1000"
+  height="1200"
+  role="img"
+  aria-label="DevLogBook logo">
+
+  <!-- 背景（淡灰） -->
+  <rect width="100%" height="100%" fill="#F5F5F5"/>
+
+  <!-- 渐变：Klein Blue → Turquoise -->
+  <defs>
+    <linearGradient id="gradD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#0047FF"/>
+      <stop offset="100%" stop-color="#00C6FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- “D” 主图形（半开书本造型） -->
+  <path
+    d="
+      M 150 150
+      H 600
+      A 250 250 0 0 1 600 850
+      H 150
+      Z"
+    fill="url(#gradD)"/>
+
+  <!-- 书页装饰线 -->
+  <rect x="330" y="150" width="60" height="700" fill="#FFFFFF" fill-opacity="0.9"/>
+
+  <!-- 文字：DevLog（蓝） / BOOK（黑） -->
+  <g
+    font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+    text-anchor="middle">
+
+    <!-- DevLog -->
+    <text
+      x="500"
+      y="1010"
+      font-size="190"
+      font-weight="600"
+      fill="#0047FF">
+      DevLog
+    </text>
+
+    <!-- BOOK -->
+    <text
+      x="500"
+      y="1180"
+      font-size="190"
+      font-weight="700"
+      fill="#000000">
+      BOOK
+    </text>
+  </g>
+</svg>
